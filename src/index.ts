@@ -11,7 +11,7 @@ const readLine = readline.createInterface({
   output: process.stdout,
 });
 
-console.log("Welcome to Node File Manager CLI!");
+console.log("Welcome to  File Manager CLI");
 console.log("choose input: read, write, delete, list, exit\n");
 
 const ask = (question: string): Promise<string> => {
